@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Flex box practice
+        </title>
+        <style>
+            p
+            {
+                margin-top: 0;
+                margin-bottom: 0;
+                font-weight: bold;
+                color: white;
+                font-size: 18px;
+            }
+            .total
+            {
+                background-color: rgb(135, 67, 224);
+                display: flex;
+                flex-direction: row;
+                opacity: 0.7;
+                padding:10px;
+                justify-content: space-between;
+            }
+            .down
+            {
+                background-color: rgb(135, 67, 224);
+                border-radius: 5px;
+                border-style: solid;
+                padding:6px;
+                color: white;
+                border-color: white;
+                border-width: 1px;
+                font-style: Arial;
+            }
+            .search
+            {
+                width: 300px;
+                padding: 6px;
+                border-radius: 15px;
+                border:none;
+                box-shadow: 0 5px 10px rgba(226, 40, 233, 0.942);
+                color: black;
+                font-size: 13px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="total">
+            <div class="one"><p>Home</p></div>
+            <div class="two">
+                <input class="search" type="text" placeholder="Search">
+            </div>
+            <div class="three">
+                <button class="down">
+                    Download
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
